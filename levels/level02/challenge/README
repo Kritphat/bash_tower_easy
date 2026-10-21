@@ -1,0 +1,10 @@
+FLOOR 3 of 9 - THE LIBRARIAN'S LEDGER
+
+The village keeps a ledger of 500 villagers in ledger.csv.
+Every villager has a secret word written in the last column.
+
+You are looking for the villager called Orin who lives in Mossfield.
+Careful: there are many Orins, and Mossfield is a big village.
+
+Orin's secret word is the password for locstd03.
+Print only that word, not the whole row.

@@ -1,0 +1,7 @@
+FLOOR 7 of 9 - THE STRONGHOLD MAPS
+
+Two cartographers drew a map of the stronghold: map_old.txt and
+map_new.txt. Each map has 2000 marks and they look exactly the same.
+
+They are not. The newer map has one mark that the old map does not have.
+That mark is the password for locstd07.

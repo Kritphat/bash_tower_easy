@@ -1,0 +1,10 @@
+FLOOR 5 of 9 - THE ENCHANTING TABLE
+
+enchanted_book.txt is written in the language of the enchanting table.
+A wizard hid a sentence in it using two spells, one after another:
+
+  1. the sentence was encoded with Base64
+  2. the result was written down as a hex dump
+
+Undo the spells in the opposite order to read the sentence.
+It tells you the password for locstd05.

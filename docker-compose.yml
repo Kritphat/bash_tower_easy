@@ -1,0 +1,359 @@
+name: bash-tower-easy
+
+services:
+  player01:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player01
+    image: locstd-easy-player01
+    container_name: locstd-easy-player01
+    hostname: tower
+    ports:
+      - "12201:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player02:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player02
+    image: locstd-easy-player02
+    container_name: locstd-easy-player02
+    hostname: tower
+    ports:
+      - "12202:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player03:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player03
+    image: locstd-easy-player03
+    container_name: locstd-easy-player03
+    hostname: tower
+    ports:
+      - "12203:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player04:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player04
+    image: locstd-easy-player04
+    container_name: locstd-easy-player04
+    hostname: tower
+    ports:
+      - "12204:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player05:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player05
+    image: locstd-easy-player05
+    container_name: locstd-easy-player05
+    hostname: tower
+    ports:
+      - "12205:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player06:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player06
+    image: locstd-easy-player06
+    container_name: locstd-easy-player06
+    hostname: tower
+    ports:
+      - "12206:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player07:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player07
+    image: locstd-easy-player07
+    container_name: locstd-easy-player07
+    hostname: tower
+    ports:
+      - "12207:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player08:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player08
+    image: locstd-easy-player08
+    container_name: locstd-easy-player08
+    hostname: tower
+    ports:
+      - "12208:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player09:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player09
+    image: locstd-easy-player09
+    container_name: locstd-easy-player09
+    hostname: tower
+    ports:
+      - "12209:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player10:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player10
+    image: locstd-easy-player10
+    container_name: locstd-easy-player10
+    hostname: tower
+    ports:
+      - "12210:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player11:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player11
+    image: locstd-easy-player11
+    container_name: locstd-easy-player11
+    hostname: tower
+    ports:
+      - "12211:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player12:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player12
+    image: locstd-easy-player12
+    container_name: locstd-easy-player12
+    hostname: tower
+    ports:
+      - "12212:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player13:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player13
+    image: locstd-easy-player13
+    container_name: locstd-easy-player13
+    hostname: tower
+    ports:
+      - "12213:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player14:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player14
+    image: locstd-easy-player14
+    container_name: locstd-easy-player14
+    hostname: tower
+    ports:
+      - "12214:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player15:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player15
+    image: locstd-easy-player15
+    container_name: locstd-easy-player15
+    hostname: tower
+    ports:
+      - "12215:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player16:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player16
+    image: locstd-easy-player16
+    container_name: locstd-easy-player16
+    hostname: tower
+    ports:
+      - "12216:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  player17:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: player17
+    image: locstd-easy-player17
+    container_name: locstd-easy-player17
+    hostname: tower
+    ports:
+      - "12217:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  teacher01:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: teacher01
+    image: locstd-easy-teacher01
+    container_name: locstd-easy-teacher01
+    hostname: tower
+    ports:
+      - "12218:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  teacher02:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: teacher02
+    image: locstd-easy-teacher02
+    container_name: locstd-easy-teacher02
+    hostname: tower
+    ports:
+      - "12219:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  teacher03:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: teacher03
+    image: locstd-easy-teacher03
+    container_name: locstd-easy-teacher03
+    hostname: tower
+    ports:
+      - "12220:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped
+
+  testuser:
+    build:
+      context: .
+      dockerfile: tower/dockerfile
+      args:
+        PLAYER: testuser
+    image: locstd-easy-testuser
+    container_name: locstd-easy-testuser
+    hostname: tower
+    ports:
+      - "12221:22"
+    init: true
+    pids_limit: 300
+    mem_limit: 256m
+    cpus: 1
+    restart: unless-stopped

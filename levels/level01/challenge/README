@@ -1,0 +1,8 @@
+FLOOR 2 of 9 - THE VILLAGE
+
+The village market is loud. trades.txt lists 1000 offers shouted by the
+villagers, one offer per line. Villagers copy each other all the time,
+so almost every offer is shouted two, three or four times.
+
+Exactly one offer is made only once.
+That offer is the password for locstd02.

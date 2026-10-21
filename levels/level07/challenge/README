@@ -1,0 +1,11 @@
+FLOOR 8 of 9 - THE END PORTAL
+
+There is no password for locstd08. The End portal opens with an
+Eye of Ender, and in this world the Eye is an SSH private key.
+
+The Eye lies in one of the chests of the stronghold, under
+/opt/stronghold. The other chests hold junk.
+
+Once you hold the Eye, use it to log in as locstd08 on this same
+machine (localhost). The Eye has been lying around far too exposed,
+so read carefully what ssh says when you try it.

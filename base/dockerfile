@@ -1,0 +1,26 @@
+FROM ubuntu:22.04
+
+#Install OpenSSH and the tools the floors need
+RUN apt-get update && apt-get install -y \
+    openssh-server \
+    file gzip bzip2 xz-utils \
+    xxd binutils procps \
+    python3 nano less \
+    && rm -rf /var/lib/apt/lists/*
+
+RUN mkdir -p /var/run/sshd
+
+#Can login with password no root permission
+RUN printf '%s\n' \
+    'PasswordAuthentication yes' \
+    'PermitRootLogin no' \
+    'PrintLastLog no' \
+    'ClientAliveInterval 60' \
+    > /etc/ssh/sshd_config.d/tower.conf
+
+#Only the tower banner is shown at login
+RUN rm -f /etc/update-motd.d/* /etc/legal
+COPY motd /etc/motd
+
+EXPOSE 22
+CMD ["/usr/sbin/sshd", "-D", "-e"]

@@ -1,0 +1,10 @@
+FROM locstd-easy-base
+
+#Which tower this is (player01 - player17, teacher01 - teacher03, testuser)
+ARG PLAYER
+
+COPY tower/ /root/build/tower/
+COPY levels/ /root/build/levels/
+COPY players/${PLAYER}.env /root/build/passwords.env
+
+RUN bash /root/build/tower/build.sh && rm -rf /root/build
